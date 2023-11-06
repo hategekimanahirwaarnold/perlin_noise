@@ -66,7 +66,6 @@ function animate() {
     circle.update();
   })
     time += 0.005;
-    i++;
 }
 
 animate()
