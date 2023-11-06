@@ -1,7 +1,4 @@
 import { noise } from '@chriscourses/perlin-noise'
-const x = noise(10) // returns value 0-1
-
-import utils, { randomColor, randomIntFromRange } from './utils'
 
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
@@ -13,8 +10,6 @@ const mouse = {
   x: innerWidth / 2,
   y: innerHeight / 2
 }
-
-const colors = ['#0FC2C0','#0CABA8', '#008F8C', '#015958', '#023535']
 
 // Event Listeners
 addEventListener('mousemove', (event) => {
